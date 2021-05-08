@@ -183,12 +183,12 @@ export default class Cart extends Component {
       }),
     });
 
-    console.log('grandTotal' + this.state.grandTotal);
+    /*console.log('grandTotal' + this.state.grandTotal);
     console.log('discount' + this.state.discount);
     console.log('userId' + this.state.userId);
     console.log('shopId' + this.state.shopId);
     console.log('productDetails');
-    console.log(...this.state.tableData);
+    console.log(...this.state.tableData);*/
 
     this.refreshCart();
   };

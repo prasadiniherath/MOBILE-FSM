@@ -11,4 +11,13 @@ export const cart = {
   totalAmaount: 0,
 };
 
+
+export const Users = {
+  loginuserid: 2,
+};
+
+
+export const UserContext = React.createContext(Users);
 export const CartContext = React.createContext(cart);
+
+

@@ -17,6 +17,7 @@ import axios from "axios";
 class unproductive extends React.Component {
   constructor() {
     super();
+    let ShopID = route.params.sid;
     this.state = {
       unproductive_reason: "",
     };
